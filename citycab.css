@@ -171,6 +171,21 @@
     color: #fff;
 }
 
+
+/* Media query for tablets (width up to 768px) */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 120px; /* Adjust logo size for tablet */
+    }
+}
+
+/* Media query for mobile devices (width up to 480px) */
+@media (max-width: 480px) {
+    .navbar-brand img {
+        width: 100px; /* Adjust logo size for mobile */
+    }
+}
+
 /* Mobile View Adjustments */
 @media (max-width: 767px) {
 
