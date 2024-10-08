@@ -176,6 +176,12 @@
 @media (max-width: 768px) {
     .navbar-brand img {
         width: 120px; /* Adjust logo size for tablet */
+        position: relative;
+        top: -10px; /* Move logo slightly upwards */
+    }
+
+    #offcanvas-toggler {
+        float: right; /* Align hamburger menu to the right */
     }
 }
 
@@ -183,6 +189,12 @@
 @media (max-width: 480px) {
     .navbar-brand img {
         width: 100px; /* Adjust logo size for mobile */
+        position: relative;
+        top: -15px; /* Move logo slightly upwards */
+    }
+
+    #offcanvas-toggler {
+        float: right; /* Ensure hamburger menu stays on the right */
     }
 }
 
